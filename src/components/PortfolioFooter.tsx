@@ -39,9 +39,11 @@ const PortfolioFooter: React.FC = () => {
                 Portfolio Project
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                This premium landing page was designed and developed as a showcase project, 
+                This premium landing page was designed and developed by <strong className="text-blue-400">Technioz</strong> as a showcase project, 
                 demonstrating modern web development techniques and best practices. 
                 Built with cutting-edge technologies for optimal performance and user experience.
+                <br /><br />
+                <strong>Services Offered:</strong> AI Automation, Web Development, CRM Integration, WhatsApp Funnels
               </p>
               
               {/* Tech Stack */}
@@ -94,20 +96,35 @@ const PortfolioFooter: React.FC = () => {
               
               <div className="text-center mb-6">
                 <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">GB</span>
+                  <span className="text-white font-bold text-xl">TB</span>
                 </div>
-                <h4 className="text-xl font-bold text-white mb-2">Gaurav Bhatia</h4>
-                <p className="text-gray-400 text-sm mb-4">Full Stack Developer</p>
+                <h4 className="text-xl font-bold text-white mb-2">Technioz</h4>
+                <p className="text-gray-400 text-sm mb-4">Modern IT Solutions Company</p>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Specializing in modern web applications with React, TypeScript, and Node.js. 
-                  Creating premium user experiences with attention to detail and performance.
+                  Delivering custom digital services for small to medium enterprises. 
+                  Specializing in AI automation, web development, and CRM integration.
                 </p>
               </div>
 
-              {/* Social Links */}
+              {/* Business Links */}
               <div className="space-y-3">
                 <motion.a
-                  href="https://github.com/yourusername"
+                  href="https://technioz.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 
+                           border border-blue-600 hover:border-blue-700 px-4 py-3 rounded-lg 
+                           transition-all duration-300 group"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <ExternalLink size={20} className="text-white" />
+                  <span className="text-white font-medium">Visit Technioz.com</span>
+                  <ExternalLink size={16} className="text-blue-200 ml-auto" />
+                </motion.a>
+
+                <motion.a
+                  href="https://technioz.com/solutions"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 bg-gray-800 hover:bg-gray-700 
@@ -116,28 +133,13 @@ const PortfolioFooter: React.FC = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  <Github size={20} className="text-gray-300 group-hover:text-white" />
-                  <span className="text-gray-300 group-hover:text-white">GitHub</span>
+                  <Code size={20} className="text-gray-300 group-hover:text-white" />
+                  <span className="text-gray-300 group-hover:text-white">Our Solutions</span>
                   <ExternalLink size={16} className="text-gray-500 ml-auto" />
                 </motion.a>
 
                 <motion.a
-                  href="https://linkedin.com/in/yourusername"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-3 bg-gray-800 hover:bg-gray-700 
-                           border border-gray-700 hover:border-gray-600 px-4 py-3 rounded-lg 
-                           transition-all duration-300 group"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  <Linkedin size={20} className="text-gray-300 group-hover:text-white" />
-                  <span className="text-gray-300 group-hover:text-white">LinkedIn</span>
-                  <ExternalLink size={16} className="text-gray-500 ml-auto" />
-                </motion.a>
-
-                <motion.a
-                  href="mailto:gaurav@example.com"
+                  href="mailto:hello@technioz.com"
                   className="flex items-center space-x-3 bg-gray-800 hover:bg-gray-700 
                            border border-gray-700 hover:border-gray-600 px-4 py-3 rounded-lg 
                            transition-all duration-300 group"
@@ -145,7 +147,7 @@ const PortfolioFooter: React.FC = () => {
                   whileTap={{ scale: 0.98 }}
                 >
                   <Mail size={20} className="text-gray-300 group-hover:text-white" />
-                  <span className="text-gray-300 group-hover:text-white">Email</span>
+                  <span className="text-gray-300 group-hover:text-white">Get Quote</span>
                   <ExternalLink size={16} className="text-gray-500 ml-auto" />
                 </motion.a>
               </div>

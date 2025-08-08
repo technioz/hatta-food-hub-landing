@@ -251,6 +251,18 @@ const Contact: React.FC = () => {
 
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
             <p>&copy; 2025 Hatta Food Hub. All rights reserved. | Premium food delivery service in Hatta, UAE</p>
+            <p className="mt-2">
+              <span className="text-gray-500">Developed by </span>
+              <a 
+                href="https://technioz.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                Technioz
+              </a>
+              <span className="text-gray-500"> - Modern IT Solutions</span>
+            </p>
           </div>
         </motion.footer>
       </div>

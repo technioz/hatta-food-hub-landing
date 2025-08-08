@@ -128,14 +128,23 @@ For support and inquiries:
 - **Phone**: +971-50-1387-766
 - **Website**: [Hatta Food Hub](https://hattafoodhub.com)
 
-## 👨‍💻 Developer
+## 👨‍💻 Developed By
 
-**Gaurav Bhatia** - Full Stack Developer
-- **Specialization**: React, TypeScript, Node.js
-- **Portfolio**: This project showcases modern web development practices
-- **Contact**: Available for freelance and full-time opportunities
-- **GitHub**: [View Profile](https://github.com/yourusername)
-- **LinkedIn**: [Connect](https://linkedin.com/in/yourusername)
+**Technioz** - Modern IT Solutions Company
+- **Website**: [technioz.com](https://technioz.com)
+- **Specialization**: AI Automation, Web Development, CRM Integration, WhatsApp Funnels
+- **Portfolio**: This project showcases modern web development practices and premium design
+- **Experience**: 5+ years delivering over 200 custom systems
+- **Services**: 
+  - AI Automation & Chatbots
+  - Web Development (Next.js, React)
+  - CRM & API Integration
+  - WhatsApp Funnels
+- **Contact**: [hello@technioz.com](mailto:hello@technioz.com)
+- **Solutions**: [View Our Solutions](https://technioz.com/solutions)
+
+### About Technioz
+Technioz is a modern IT solutions company delivering custom digital services for small to medium enterprises. They help businesses grow by providing smart, scalable tools — not generic templates. Specializing in industries that thrive on customer interaction and lead generation like real estate, salons, e-commerce, clinics, and logistics businesses.
 
 ## 🚀 Deployment
 
