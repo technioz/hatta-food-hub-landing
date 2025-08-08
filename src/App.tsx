@@ -13,6 +13,7 @@ import Partnership from './components/Partnership';
 import WebGLBackground from './components/WebGLBackground';
 import LoadingScreen from './components/LoadingScreen';
 import Navigation from './components/Navigation';
+import PortfolioFooter from './components/PortfolioFooter';
 import { useState } from 'react';
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
         <AppDownload />
         <Partnership />
         <Contact />
+        <PortfolioFooter />
       </motion.main>
       
     </div>

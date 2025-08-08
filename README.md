@@ -11,6 +11,9 @@ A modern, premium landing page for Hatta Food Hub - the leading food delivery pl
 - **Premium Background**: Custom gradient and noise texture effects
 - **App Store Integration**: Direct links to iOS and Android app stores
 - **Performance Optimized**: Fast loading with Vite and optimized assets
+- **SEO Optimized**: Comprehensive meta tags, structured data, and sitemap
+- **PWA Ready**: Progressive Web App capabilities with manifest
+- **Portfolio Showcase**: Developer information and project highlights
 
 ## 🛠️ Tech Stack
 
@@ -105,10 +108,14 @@ src/
 ## 🌟 Key Features
 
 - **Real-time Updates**: Live content updates
-- **SEO Optimized**: Meta tags and structured data
-- **Fast Loading**: Optimized bundle size
+- **SEO Optimized**: Comprehensive meta tags, structured data, and sitemap
+- **Fast Loading**: Optimized bundle size and performance
 - **Cross-browser Compatible**: Works on all modern browsers
 - **Mobile Responsive**: Perfect on all screen sizes
+- **PWA Capabilities**: Installable as a web app
+- **Portfolio Integration**: Developer showcase and project highlights
+- **Accessibility**: WCAG compliant design
+- **Performance Monitoring**: Optimized for Core Web Vitals
 
 ## 📄 License
 
@@ -120,6 +127,15 @@ For support and inquiries:
 - **Email**: info@hattafoodhub.com
 - **Phone**: +971-50-1387-766
 - **Website**: [Hatta Food Hub](https://hattafoodhub.com)
+
+## 👨‍💻 Developer
+
+**Gaurav Bhatia** - Full Stack Developer
+- **Specialization**: React, TypeScript, Node.js
+- **Portfolio**: This project showcases modern web development practices
+- **Contact**: Available for freelance and full-time opportunities
+- **GitHub**: [View Profile](https://github.com/yourusername)
+- **LinkedIn**: [Connect](https://linkedin.com/in/yourusername)
 
 ## 🚀 Deployment
 

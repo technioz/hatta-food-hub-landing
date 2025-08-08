@@ -1,0 +1,40 @@
+{
+  "name": "Hatta Food Hub - Premium Food Delivery",
+  "short_name": "Hatta Food Hub",
+  "description": "Premium food delivery platform in Hatta, UAE. Order from your favorite restaurants with fast, reliable delivery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.hattaFoodHub.order",
+      "id": "com.hattaFoodHub.order"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/ae/app/hattafoodhub/id1672007981"
+    }
+  ]
+} 
